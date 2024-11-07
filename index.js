@@ -14,7 +14,7 @@ const app = express();
 app.use(
   cors({
     credentials: true,
-    origin: 'http://localhost:3000',
+    origin: 'https://task-exchange-indol.vercel.app',
   })
 );
 app.use(bodyParser.json({ limit: '10mb' })); // Увеличивает лимит для JSON запросов
